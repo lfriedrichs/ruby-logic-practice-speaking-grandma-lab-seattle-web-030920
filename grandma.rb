@@ -15,10 +15,10 @@
 def speak_to_grandma(input) 
   if input == 'I LOVE YOU GRANDMA!'
     return 'I LOVE YOU TOO PUMPKIN!' 
-  else if input.match(/[A-Z]/)
-    return 'NO, NOT SINCE 1938!' 
+  else if input.match(/[a-z]/)
+    return 'HUH?! SPEAK UP, SONNY!' 
   else 
-    'HUH?! SPEAK UP, SONNY!'
+    'NO, NOT SINCE 1938!' 
     end 
   end
 end 
